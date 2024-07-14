@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        Scanner sc=new Scanner(System.in);
+        int j=sc.nextInt();
+        while(j-->0){
+            int u=sc.nextInt();
+            int v=sc.nextInt();
+            int ans=u-v;
+            System.out.println(ans);
+        }
+	}
+}
