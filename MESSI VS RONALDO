@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner sc=new Scanner(System.in);
+        int u=sc.nextInt();
+        int v=sc.nextInt();
+        int w=sc.nextInt();
+        int x=sc.nextInt();
+        int ans1=u*2+v;
+        int ans2=w*2+x;
+        if(ans1>ans2)
+            System.out.println("Messi");
+        else if(ans1<ans2)
+          System.out.println("Ronaldo");
+        else  
+          System.out.println("Equal");
+	}
+}
